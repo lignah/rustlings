@@ -1,6 +1,6 @@
 fn main() {
-    // TODO: Change the line below to fix the compiler error.
-    let x;
+    // Rust infers its type as `i32` which is the default type for integers.
+    let x: u8 = b'A';
 
     if x == 10 {
         println!("x is ten!");

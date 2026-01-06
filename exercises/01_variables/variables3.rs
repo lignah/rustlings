@@ -1,6 +1,7 @@
 fn main() {
-    // TODO: Change the line below to fix the compiler error.
-    let x: i32;
+    // Reading uninitialized variables isn't allowed in Rust
+    let x: i32 = b'e'.into();
 
+    // Number 101
     println!("Number {x}");
 }
