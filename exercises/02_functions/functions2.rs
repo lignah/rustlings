@@ -1,5 +1,5 @@
-// TODO: Add the missing type of the argument `num` after the colon `:`.
-fn call_me(num:) {
+// The type of function arguments must be annotated.
+fn call_me(num:i8) {
     for i in 0..num {
         println!("Ring! Call number {}", i + 1);
     }
